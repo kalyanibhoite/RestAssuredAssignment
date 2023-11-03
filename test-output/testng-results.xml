@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-03T17:54:02 GMT" name="Default suite" finished-at="2023-11-03T17:54:06 GMT" duration-ms="3727">
+    <groups>
+      <group name="smoke">
+        <method signature="PostExample.Posttest()[pri:0, instance:com.api.test.PostExample@5974109]" name="Posttest" class="com.api.test.PostExample"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="PostExample.Posttest()[pri:0, instance:com.api.test.PostExample@5974109]" name="Posttest" class="com.api.test.PostExample"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2023-11-03T17:54:02 GMT" name="Default test" finished-at="2023-11-03T17:54:06 GMT" duration-ms="3727">
+      <class name="com.api.test.PostExample">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.api.test.PostExample@5974109]" started-at="2023-11-03T17:54:03 GMT" name="setup" description="Initializing the headers" finished-at="2023-11-03T17:54:03 GMT" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Posttest()[pri:0, instance:com.api.test.PostExample@5974109]" started-at="2023-11-03T17:54:03 GMT" name="Posttest" description="test for post" finished-at="2023-11-03T17:54:06 GMT" duration-ms="3635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Posttest -->
+      </class> <!-- com.api.test.PostExample -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
